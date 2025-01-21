@@ -14,6 +14,8 @@ header input{
     height: 30px;
     border-radius: 10px;
     border-color: white;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .logo{
@@ -21,7 +23,16 @@ header input{
     height: 150px;
 }
 
+
+.search{
+    display: flex;
+
+    flex-basis: 50%;
+}
+
+
 .SearchBar{
+    flex-basis: 80%;
     padding-left: 32px;
 
     background-size: 30px;
@@ -29,7 +40,8 @@ header input{
     background-image: url(https://cdn-icons-png.flaticon.com/512/109/109164.png);
 }
 
-.Search{
+.SearchBtn{
+    flex-basis: 20%;
     background-color: #007bff;
     color: #FFF;
     height: 35px;
@@ -37,10 +49,14 @@ header input{
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0%;
 
+
+/* 
     position: relative;
     right: 180px;
-    
+     */
     transition-duration: .2s;
     
 }
@@ -59,4 +75,44 @@ button:hover{
     height: 50px;
 }
 
+main{
+    height: 400px;
+}
 
+footer{
+    display: flex;
+    background-color: rgb(0, 0, 60);
+    height: 200px;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.footer-menu{
+    width: 30%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-img{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    height: 30px;
+}
+
+footer>p{
+    color: white;
+}
