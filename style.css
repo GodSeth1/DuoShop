@@ -140,6 +140,34 @@ main{
     min-width: 100px;
 }
 
+.item{
+    list-style: none;
+    margin-bottom: 6px;
+    background-color: #d5d2d2;
+}
+
+li>a{
+    text-decoration: none;
+    font-family: "Roboto Condensed", serif;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    filter: grayscale(80%);
+}
+
+a>img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    width: 10px;
+    height: 10px;
+}
+
 .main-content{
     flex-basis: 80%;
 }
