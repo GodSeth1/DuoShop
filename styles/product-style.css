@@ -1,0 +1,100 @@
+main{
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 30px;
+}
+
+.img-container{
+    flex-basis: 45%;
+}
+
+img{
+    width: 100%;
+}
+
+.info-container{
+    flex-basis: 45%;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.info-container h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-id{
+    text-align: end;
+    color: rgb(158, 158, 158);
+    font-size: smaller;
+}
+
+.in-stock{
+    color: rgb(47, 255, 57);
+    font-weight: 700;
+    font-size: small;
+    margin-top: 100px;
+}
+
+.ratting{
+    width: 200px;
+    height: 20px;
+}
+
+.info-container h3{
+    font-size: xx-large;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buy{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.7s;
+    flex-basis: 45%;
+}
+
+.cart{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background-color: #f4f4f4;
+    color: green;
+    border-radius: 10px;
+    transition: 0.7s;
+    flex-basis: 45%;
+}
+
+.buy:hover{
+    background-color: rgb(1, 91, 1);
+}
+
+.cart:hover{
+    background-color: #cecece;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+}
+
+.description-container>label{
+    font-weight: 700;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.description-container>textarea{
+    height: 200px;
+    margin: 10px;
+}
