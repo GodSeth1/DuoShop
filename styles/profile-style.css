@@ -1,0 +1,79 @@
+main{
+    display: flex;
+
+    padding: 20px;
+
+    background-color: rgb(233, 233, 233);
+}
+
+.client-info, .feedbacks, .orders{
+    background-color: #fff;
+
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.client-info{
+    flex-basis: 40%;
+}
+
+.second-container{
+    flex-basis: 60%;
+}
+
+.profile-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-date p{
+    color: rgb(237, 237, 237);
+    font-weight: 200;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+
+    justify-content: space-between;
+}
+
+.input-email{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.inputs input{
+    border: none;
+    margin: 10px;
+    border-bottom: 2px solid rgb(195, 195, 195);
+}
+
+.save-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;   
+}
+
+.Save{
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+    background: linear-gradient(159deg, rgba(249,0,170,1), rgb(0, 221, 255));
+}
