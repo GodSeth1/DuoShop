@@ -99,6 +99,7 @@ main{
     border: 2px solid grey;
     width: 350px;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .orders-content{
@@ -112,6 +113,7 @@ main{
 
 .orders-content p{
     width: 200px;
+
 }
 
 .about{
@@ -126,7 +128,7 @@ main{
 
 .feedbacks-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .feedback{
@@ -136,6 +138,7 @@ main{
     border: 2px solid grey;
     justify-content: space-between;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .feedbacks-main{
